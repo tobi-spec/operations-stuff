@@ -43,3 +43,8 @@ field 7: shell
 ``
 testuser:x:1001:1001::/home/testuser:/bin/sh
 ``
+
+change to user
+``
+sudo su - testuser
+``

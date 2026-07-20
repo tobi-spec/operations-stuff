@@ -41,3 +41,13 @@ recursively change permission for directory to read/write for user
 ``
 chmod -R 600 Downloads
 ``
+
+change file ownership of directory
+``
+sudo chown -R testuser directory/
+``
+
+change file ownership to user and group of directory
+``
+sudo chown -R testuser:testuser directory/
+``
