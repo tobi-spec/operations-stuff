@@ -36,3 +36,13 @@ synchronise configs folder
 rsynv -av ~/configs myuser@1.1.1.1:~/configs
 ``
 
+
+## create keys
+
+``
+ssh-keygen -t ed25519
+``
+
+``
+ssh-keygen -t rsa -b 4096
+``
