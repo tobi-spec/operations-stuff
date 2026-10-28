@@ -33,7 +33,7 @@ rsync <source> <destination>
 
 synchronise configs folder
 ``
-rsynv -av ~/configs myuser@1.1.1.1:~/configs
+rsync -av ~/configs myuser@1.1.1.1:~/configs
 ``
 
 
