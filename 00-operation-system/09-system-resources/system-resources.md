@@ -5,6 +5,11 @@ disk free in gigabyte
 df -H --total
 ``
 
+disk usage of main folder in directory /
+``
+sudo du -h --max-depth=1 -x /
+``
+
 disk usage of all directories (recursive) from the working directory in gigabyte
 ``
 du --si

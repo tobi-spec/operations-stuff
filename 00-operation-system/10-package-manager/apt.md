@@ -44,3 +44,8 @@ get list of apt sources
 ``
 sudo cat /etc/apt/sources.list
 ``
+
+update ubuntu
+``
+do-release-upgrade
+``
